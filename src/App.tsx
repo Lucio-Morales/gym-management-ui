@@ -1,29 +1,34 @@
+// import Dashboard from "./Dashboard";
+// import Features from "./Features";
+// import Roles from "./Roles";
+// import StoreSection from "./StoreSection";
+// import Hero from "./Hero";
+// import Navbar from "./Navbar";
 
-import Dashboard from "./Dashboard";
-import Features from "./Features";
-import Hero from "./Hero";
-import Navbar from "./Navbar";
-import Roles from "./Roles";
-import StoreSection from "./StoreSection";
+import { LoginPage } from "./features/auth";
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 overflow-x-hidden">
+    <LoginPage />
 
-      <Navbar />
 
-      <Hero />
+  );
+}
 
-      <Features />
+// <div className="min-h-screen bg-slate-950 text-slate-100 overflow-x-hidden">
+
+{/* <Navbar />
+
+      <Hero /> */}
+
+{/* <Features />
 
       <Dashboard />
 
       <Roles />
 
-      <StoreSection />
+      <StoreSection /> */}
 
-    </div>
-  );
-}
+// </div>
 
 export default App;
